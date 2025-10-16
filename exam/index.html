@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="INICIAR SESION FULL PRO 4K HD">
+    <link rel="stylesheet" href="css/css.css">
+    <title>INICIO SESION</title>
+</head>
+<body>
+    <header class="cabeza">
+        <h1>INICIO DE SESION</h1>
+    </header>
+
+    <main class="cuerpo">
+        <div class="container">
+            <label for="name">Ingresa tu nombre: </label>
+            <input type="text" required min="3" max="15" id="name" class="inp" placeholder="Nombre aqui"><br>
+            <label class="wrong" id="nWrong"></label><br><br>
+
+            <label for="correo">Ingresa tu correo: </label>
+            <input type="email" required min="10" max="50" id="correo" class="inp" placeholder="Correo aqui"><br>
+            <label class="wrong" id="eWrong"></label><br><br>
+
+            <label for="age">Ingresa tu edad: </label>
+            <input type="number" required min="1" max="99" id="age" class="inp" placeholder="Edad aqui"><br>
+            <label class="wrong" id="aWrong"></label><br><br>
+
+            <label for="country">Ingresa tu pais: </label>
+            <input type="text" required min="4" max="20" id="country" class="inp" placeholder="Pais aqui"><br>
+            <label class="wrong" id="pWrong"></label><br><br>
+
+            <button class="btn" id="btn">Iniciar sesion</button><br><br>
+            <button class="btn" id="btnS">Guardar</button><br>
+            <label id="saludo"></label>
+        </div>
+    </main>
+
+    <footer class="pies">
+        <label for="">COPYRIGHT JUAN MI TIO PUNTO COM 2025</label>
+    </footer>
+
+    <script src="js/js.js"></script>
+</body>
+</html>

@@ -1,0 +1,47 @@
+body{
+    text-align: center;
+    background-color: lightblue;
+    margin: 0;
+}
+
+.btn{
+    border: 2px black solid;
+    background-color: blueviolet;
+    color: white;
+}
+
+.btn:hover{
+    border: 2px black solid;
+    background-color: rgb(106, 17, 188);
+    color: white;
+    cursor: pointer;
+}
+
+.cabeza{
+    height: 10vh;
+    align-content: center;
+    background-color: rgb(255, 205, 213);
+}
+
+.container{
+    padding: 100px;
+    /*background-color: white;*/
+}
+
+.cuerpo{
+    height: 80vh;
+}
+
+.inp{
+    border: 2px blueviolet solid;
+}
+
+.pies{
+    height: 10vh;
+    align-content: center;
+    background-color: rgb(255, 205, 213)
+}
+
+.wrong{
+    color: red;
+}
